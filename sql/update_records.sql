@@ -1,9 +1,4 @@
--- Update the genre of a movie
-UPDATE movies
-SET genre = 'Adventure'
-WHERE title = 'The Dark Knight';
-
--- Correct the release year of a movie
-UPDATE movies
-SET release_year = 2008
-WHERE title = 'Pulp Fiction';
+-- Correct the edition of a book
+UPDATE books
+SET title = "The Great Gatsby Ed. 2"
+WHERE author_id = 'e0b75863-866d-4db4-85c7-df9bb8ee6dab';

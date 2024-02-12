@@ -1,1 +1,6 @@
 2024-02-10 20:31:19,893 - INFO - Program started
+2024-02-11 18:40:04,267 - INFO - Program started
+2024-02-11 18:52:26,630 - INFO - Program started
+2024-02-11 18:52:26,630 - INFO - Database created successfully.
+2024-02-11 18:52:26,673 - INFO - Tables created successfully.
+2024-02-11 18:52:26,751 - INFO - Data inserted successfully.

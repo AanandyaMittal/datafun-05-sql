@@ -23,9 +23,9 @@ def create_database():
     try:
         conn = sqlite3.connect(db_file)
         conn.close()
-        print("Database created successfully.")
+        logging.info("Database created successfully.")
     except sqlite3.Error as e:
-        print("Error creating the database:", e)
+        logging.exception("Error creating the database:", e)
     
 def create_tables():
     """Function to read and execute SQL statements to create tables"""
@@ -35,9 +35,9 @@ def create_tables():
             with open(sql_file, "r") as file:
                 sql_script = file.read()
             conn.executescript(sql_script)
-            print("Tables created successfully.")
+            logging.info("Tables created successfully.")
     except sqlite3.Error as e:
-        print("Error creating tables:", e)
+        logging.exception("Error creating tables:", e)
 
 def insert_data_from_csv():
     """Function to use pandas to read data from CSV files (in 'data' folder)
@@ -52,9 +52,9 @@ def insert_data_from_csv():
             # pass in the table name and the connection
             authors_df.to_sql("authors", conn, if_exists="replace", index=False)
             books_df.to_sql("books", conn, if_exists="replace", index=False)
-            print("Data inserted successfully.")
+            logging.info("Data inserted successfully.")
     except (sqlite3.Error, pd.errors.EmptyDataError, FileNotFoundError) as e:
-        print("Error inserting data:", e)
+        logging.exception("Error inserting data:", e)
 
 def execute_sql_from_file(db_filepath, sql_file):
     with sqlite3.connect(db_filepath) as conn:
@@ -62,6 +62,7 @@ def execute_sql_from_file(db_filepath, sql_file):
             sql_script = file.read()
         conn.executescript(sql_script)
         print(f"Executed SQL from {sql_file}")
+        logging.info(f"Executed SQL from {sql_file}")
 
 def main():
 
