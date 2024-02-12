@@ -4,3 +4,48 @@
 2024-02-11 18:52:26,630 - INFO - Database created successfully.
 2024-02-11 18:52:26,673 - INFO - Tables created successfully.
 2024-02-11 18:52:26,751 - INFO - Data inserted successfully.
+2024-02-12 12:43:15,015 - INFO - Program started
+2024-02-12 12:43:15,031 - INFO - Database created successfully.
+2024-02-12 12:43:15,098 - INFO - Tables created successfully.
+2024-02-12 12:43:15,209 - INFO - Data inserted successfully.
+2024-02-12 12:46:13,864 - INFO - Program started
+2024-02-12 12:46:13,864 - INFO - Database created successfully.
+2024-02-12 12:46:13,906 - INFO - Tables created successfully.
+2024-02-12 12:46:13,995 - INFO - Data inserted successfully.
+2024-02-12 12:51:22,216 - INFO - Program started
+2024-02-12 12:51:22,217 - INFO - Database created successfully.
+2024-02-12 12:51:22,267 - INFO - Tables created successfully.
+2024-02-12 12:51:22,346 - INFO - Data inserted successfully.
+2024-02-12 12:53:52,800 - INFO - Program started
+2024-02-12 12:53:52,801 - INFO - Database created successfully.
+2024-02-12 12:53:52,850 - INFO - Tables created successfully.
+2024-02-12 12:53:52,932 - INFO - Data inserted successfully.
+2024-02-12 12:55:12,674 - INFO - Program started
+2024-02-12 12:55:12,676 - INFO - Database created successfully.
+2024-02-12 12:55:12,721 - INFO - Tables created successfully.
+2024-02-12 12:55:12,808 - INFO - Data inserted successfully.
+2024-02-12 12:55:38,832 - INFO - Program started
+2024-02-12 12:55:38,832 - INFO - Database created successfully.
+2024-02-12 12:55:38,869 - INFO - Tables created successfully.
+2024-02-12 12:55:38,955 - INFO - Data inserted successfully.
+2024-02-12 12:55:38,967 - INFO - Executed SQL from sql\insert_records.sql
+2024-02-12 12:55:38,980 - INFO - Executed SQL from sql\update_records.sql
+2024-02-12 12:55:39,000 - INFO - Executed SQL from sql\delete_records.sql
+2024-02-12 12:55:39,000 - INFO - Executed SQL from sql\query_aggregation.sql
+2024-02-12 12:55:39,010 - INFO - Executed SQL from sql\query_filter.sql
+2024-02-12 12:55:39,013 - INFO - Executed SQL from sql\query_sorting.sql
+2024-02-12 12:55:39,016 - INFO - Executed SQL from sql\query_group_by.sql
+2024-02-12 12:57:29,279 - INFO - Program started
+2024-02-12 12:57:29,279 - INFO - Database created successfully.
+2024-02-12 12:57:29,326 - INFO - Tables created successfully.
+2024-02-12 12:57:29,407 - INFO - Data inserted successfully.
+2024-02-12 12:57:29,422 - INFO - Executed SQL from sql\insert_records.sql
+2024-02-12 12:57:29,433 - INFO - Executed SQL from sql\update_records.sql
+2024-02-12 12:57:29,457 - INFO - Executed SQL from sql\delete_records.sql
+2024-02-12 12:57:29,461 - INFO - Executed SQL from sql\query_aggregation.sql
+2024-02-12 12:57:29,461 - INFO - Executed SQL from sql\query_filter.sql
+2024-02-12 12:57:29,466 - INFO - Executed SQL from sql\query_sorting.sql
+2024-02-12 12:57:29,466 - INFO - Executed SQL from sql\query_group_by.sql
+2024-02-12 12:57:29,470 - INFO - Executed SQL from sql\query_join.sql
+2024-02-12 12:57:29,470 - INFO - All SQL operations completed successfully
+2024-02-12 12:57:29,470 - INFO - Program ended
